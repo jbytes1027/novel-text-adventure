@@ -9,7 +9,7 @@ public class Adventure {
     public static void main(String[] args) {
         Scanner keyboardScanner = new Scanner(System.in);
 
-        giveStory("It's been a long day");
+        giveStory("WELCOME TO A SHORT TEXT ADVENTURE.\n" + "Let's start at the beginning...\n");
 
         giveStory("It's been a long journey, even for a hunter.\n"
                 + "It looks like its going to rain.\n"
