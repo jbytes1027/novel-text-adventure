@@ -1,13 +1,15 @@
 // James Pretoirus
 import java.util.Scanner;
 
-public class Homework00 {
+public class Adventure {
     public static boolean hasArmour = false;
     public static boolean hasContract = false;
     public static int drinkCount = 0;
 
     public static void main(String[] args) {
         Scanner keyboardScanner = new Scanner(System.in);
+
+        giveStory("It's been a long day");
 
         giveStory("It's been a long journey, even for a hunter.\n"
                 + "It looks like its going to rain.\n"
